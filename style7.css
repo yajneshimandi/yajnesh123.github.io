@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: rosenly;
+    background: #A82D6C;
+    color: #333;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+.stylebox {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.header {
+    text-align: center;
+}
+.pfp {
+    width: 150px;
+    height: 180px;
+    border: solid #A82D6C 2px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.header h1 {
+    margin: 15px 0 5px;
+}
+.header p {
+    color: #666;
+    font-weight: bold;
+}
+.box-heading {
+    border-bottom: 3px solid #A82D6C;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.skills ul {
+    list-style: square;
+    padding-left: 20px;
+}
+.details ul {
+    list-style: square;
+    padding-left: 20px;
+}
+.certs ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #A82D6C;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.resume-btn:hover {
+    opacity: 0.9;
+}
+.contact-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact-links a {
+    text-decoration: none;
+    color: #A82D6C;
+    font-weight: bold;
+}
+.contact-links a:hover {
+    text-decoration: underline;
+}
